@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cafeteria Aleatoria — Café artesanal & relax</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#">Cafeteria Aleatoria</a>
+            <nav class="nav" aria-label="Menu principal">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#local">Localização</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+            <button class="theme-toggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <h1>Café artesanal com sabor de casa</h1>
+                    <p>Grãos selecionados, preparo cuidadoso e um espaço pensado para seu conforto, foco em agradar nossos clientes.</p>
+                    <a href="#menu" class="btn-primary">Ver Menu</a>
+                </div>
+                <figure class="hero-media" aria-hidden="true">
+                    <img src="img/Coffee-Beans-PNG-High-Quality-Image-removebg-preview.png" alt="Grãos de café torrados sobre superfície" loading="lazy">
+                </figure>
+            </div>
+        </section>
+
+        <section id="sobre" class="section about">
+            <div class="container">
+                <h2>Sobre nós</h2>
+                <p>A Cafeteria Aleatória nasceu da paixão por cafés de alta qualidade e do desejo de criar um espaço acolhedor, pensado para proporcionar momentos especiais — seja para encontros entre amigos, reuniões de trabalho ou pausas relaxantes no dia a dia. Nosso compromisso vai além de servir um bom café: buscamos oferecer uma experiência completa, marcada pelo cuidado, conforto e excelência em cada detalhe.
+                    Trabalhamos com grãos selecionados, provenientes de fornecedores locais, valorizando a produção sustentável e fortalecendo a economia regional. Cada bebida é preparada com atenção e técnica, garantindo sabor, aroma e qualidade incomparáveis. Além disso, nosso cardápio inclui opções artesanais cuidadosamente elaboradas, com ingredientes frescos e selecionados.
+                    Nosso ambiente foi projetado para transmitir aconchego e bem-estar, com um espaço moderno, confortável e convidativo, ideal para quem busca tranquilidade, produtividade ou simplesmente bons momentos.
+                    Desde 2011, a Cafeteria Aleatória se destaca como referência na região, unindo qualidade, sustentabilidade, atendimento diferenciado e uma experiência única para cada cliente. Aqui, cada visita é pensada para ser memorável.
+                </p>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu">
+            <div class="container">
+                <h2>Menu</h2>
+                <div class="menu-grid">
+                    <article class="menu-item menu-item--featured">
+                        <div class="menu-item__content">
+                            <h3>Bolo de Chocolate</h3>
+                            <p class="price">R$ 15,00</p>
+                            <p class="desc">Clássico e delicioso.</p>
+                        </div>
+                        <figure class="menu-item__media">
+                            <img src="img2/bolao.png" alt="Bolo de chocolate gourmet" loading="lazy">
+                        </figure>
+                    </article>
+                    <article class="menu-item menu-item--featured">
+                        <div class="menu-item__content">
+                            <h3>Suco Natural</h3>
+                            <p class="price">R$ 8,00</p>
+                            <p class="desc">Suco de frutas frescas e naturais.</p>
+                        </div>
+                        <figure class="menu-item__media">
+                            <img src="img3/201850a6-8134-4989-a97f-f5af18e2412b.png" alt="Suco natural de frutas frescas" loading="lazy">
+                        </figure>
+                    </article>
+                    <article class="menu-item menu-item--featured">
+                        <div class="menu-item__content">
+                            <h3>Cappuccino</h3>
+                            <p class="price">R$ 11,00</p>
+                            <p class="desc">Espuma cremosa e pequeno toque de cacau.</p>
+                        </div>
+                        <figure class="menu-item__media">
+                            <img src="img4/cappuccino.png" alt="Cappuccino cremoso com espuma perfeita" loading="lazy">
+                        </figure>
+                    </article>
+                    <article class="menu-item menu-item--featured">
+                        <div class="menu-item__content">
+                            <h3>Pão de Queijo</h3>
+                            <p class="price">R$ 8,00</p>
+                            <p class="desc">Assado na hora — perfeito para acompanhar.</p>
+                        </div>
+                        <figure class="menu-item__media">
+                            <img src="img5/pao-de-queijo.png" alt="Pão de queijo quente e crocante" loading="lazy">
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="local" class="section location">
+            <div class="container">
+                <h2>Localização</h2>
+                <p>Rua das Flores, 123 — Centro, SuaCidade</p>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps?q=Praça+da+Sé+São+Paulo&output=embed" loading="lazy" title="Localização da Cafeteria Aurora no Google Maps"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="avaliacoes" class="section reviews">
+            <div class="container">
+                <h2>Avaliações</h2>
+                <div class="reviews-grid" id="reviewsGrid">
+                    <blockquote class="review">
+                        <p>"Ótimo café e ambiente tranquilo. Recomendo!"</p>
+                        <footer>— Ana, 5★</footer>
+                    </blockquote>
+                    <blockquote class="review">
+                        <p>"Atendimento impecável e doces deliciosos."</p>
+                        <footer>— Carlos, 4★</footer>
+                    </blockquote>
+                </div>
+                <form id="reviewForm" class="review-form" aria-label="Formulário de avaliação">
+                    <h3>Deixe sua avaliação</h3>
+                    <div class="form-row">
+                        <input type="text" id="reviewer" name="reviewer" placeholder="Seu nome" />
+                        <div class="rating" role="radiogroup" aria-label="Avaliação">
+                            <input type="radio" name="rating" id="r5" value="5"><label for="r5">★</label>
+                            <input type="radio" name="rating" id="r4" value="4"><label for="r4">★</label>
+                            <input type="radio" name="rating" id="r3" value="3"><label for="r3">★</label>
+                            <input type="radio" name="rating" id="r2" value="2"><label for="r2">★</label>
+                            <input type="radio" name="rating" id="r1" value="1" checked><label for="r1">★</label>
+                        </div>
+                    </div>
+                    <textarea id="comment" name="comment" placeholder="Comentário (opcional)" rows="3"></textarea>
+                    <button type="submit" class="btn-primary">Enviar avaliação</button>
+                </form>
+
+                <div id="toast" class="toast" aria-live="polite" aria-atomic="true"></div>
+            </div>
+        </section>
+
+        <section id="contato" class="section contact">
+            <div class="container">
+                <h2>Contato & Endereço</h2>
+                <address>
+                    <p>Rua das Flores, 123 — Centro, SuaCidade</p>
+                    <p>Telefone: (11) 1234-5678</p>
+                    <p>Email: rzin@outlook.com</p>
+                </address>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Cafeteria Aleatoria — Todos os direitos reservados — by @rian.dml</p>
+        </div>
+    </footer>
+</body>
+</html>
